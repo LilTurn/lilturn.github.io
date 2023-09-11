@@ -1,0 +1,74 @@
+#blick{
+    animation: blick 3s ease-in-out infinite;
+    font-weight: 700;
+}
+@keyframes blick {
+    0%{color: darkblue;}
+    25%{color: rgb(15, 15, 161);}
+    50%{color: rgb(47, 47, 196);}
+    100%{color: rgb(58, 58, 225);}
+
+}
+.nene{
+    width: 200px;
+    height: 150px;
+    background-color: bisque;
+    border: 2px solid gray;
+    margin: 3px;
+    padding: 3px;
+    position: absolute;
+    transition-property: top;
+    transition-duration: 2s;
+    top: -100px;
+}
+.nene:hover{
+    top: 100px;
+}
+.neno{
+    width: 200px;
+    height: 150px;
+    background-color: bisque;
+    border: 2px solid gray;
+    margin: 3px;
+    padding: 3px;
+    position: absolute;
+    transition-property: left;
+    transition-duration: 2s;
+    left: -100px;
+}
+.neno:hover{
+    left: 100px;
+}
+.ews1{
+    text-align: center;
+    float: left;
+    width: 100px;
+    height: 300px;
+    background-image: url(anime/1i.webp);
+    transition: 1s;
+}
+.ews1:hover{
+    width: 450px;
+}
+.ews2{
+    text-align: center;
+    float: left;
+    width: 100px;
+    height: 300px;
+    background-image: url(anime/2i.webp);
+    transition: 1s;
+}
+.ews2:hover{
+    width: 450px;
+}
+.ews3{
+    text-align: center;
+    float: left;
+    width: 100px;
+    height: 300px;
+    background-image: url(anime/3i.webp);
+    transition: 1s;
+}
+.ews3:hover{
+    width: 450px;
+}

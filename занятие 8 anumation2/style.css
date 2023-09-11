@@ -1,0 +1,65 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.wrap{
+    max-width: 700px;
+}
+#go > span{
+    display: block;
+    margin-top: 15px;
+}
+p{
+    width: 120px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition-duration: 3s;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: inherit;
+}
+.fa{
+    padding-right: 10px;
+    font-weight: bold;
+}
+.fa-power-off{
+    color: blue;
+
+}
+.fa-refresh{
+    color: darkgreen;
+}
+p:nth-of-type(1){
+    background: darkslateblue;
+    color: azure;
+    transition-timing-function: linear;
+}
+p:nth-of-type(2){
+    background: rgb(46, 100, 216);
+    color: azure;
+    transition-timing-function: ease;
+}
+p:nth-of-type(3){
+    background: rgb(45, 187, 223);
+    color: azure;
+    transition-timing-function: ease-in;
+}
+p:nth-of-type(4){
+    background: rgb(33, 197, 156);
+    color: azure;
+    transition-timing-function: ease-out;
+}
+p:nth-of-type(5){
+    background: rgb(32, 201, 69);
+    color: azure;
+    transition-timing-function: ease-in-out;
+}
+#go:target p{
+    transform: translateX(560px);
+}

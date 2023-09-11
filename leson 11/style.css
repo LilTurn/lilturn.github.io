@@ -1,0 +1,47 @@
+body{
+    position: relative;
+}
+#page1{
+    height: 500px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 500px;
+    padding-top: 50px;
+    background-color: rgb(69, 50, 24);
+}
+#page3{
+    height: 500px;
+    padding-top: 50px;
+    background-color: rgb(115, 72, 17);
+}
+#page4{
+    height: 500px;
+    padding-top: 50px;
+    background-color: rgb(165, 125, 73);
+}
+#page4-1{
+    height: 500px;
+    padding-top: 50px;
+    background-color: rgb(230, 169, 90);
+}
+#page4-2{
+    height: 500px;
+    padding-top: 50px;
+    background-color: rgb(183, 125, 49);
+}
+.sect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-center{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+}
+.table{
+    background:none ;
+}

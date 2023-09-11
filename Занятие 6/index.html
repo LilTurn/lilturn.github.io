@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>новые формы 2</title>
+    <style>
+        .wrapper{
+            width: 700px;
+            height: 1900px;
+            border: 3px solid gray;
+            background-color: rgb(83, 26, 26);
+            margin: 0 auto;
+            color: white;
+            
+        }
+        body{
+            background-color: rgb(177, 152, 115);
+        }
+        
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    Поиск:
+    <p> &#128269;<input type="search" name="search1" id="ser" placeholder="Найти">
+    <input type="button" value="найти">
+    </p>
+    <br>
+    Введите время
+    <p>
+        &#9200<input type="time" name="time1" id="tim1" placeholder="Найти">
+    <input type="button" value="Найти">
+    </p>
+    Введите номер телефона:
+    <p>&#9742
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" autocomplete="8(966)035-65-12"></p>
+        <input type="date" name="date" id="date2" value="2022-12-22">
+        <input type="week" name="week1" id="week1">
+        <input type="month" name="month2" id="month2">
+        <button onclick="start2()">отправить</button>
+        <p id="rare2"></p>
+
+
+<script>
+    function start2() {
+        document.getElementById('rare2').innerHTML = date2.value
+    }
+</script>
+ <hr> <br><br><br>
+ <h2>добавления в форму</h2>
+<h3> Сообщения</h3>
+ <form action="#">
+    <fieldset>
+        <legend>Комментарий</legend>
+        <label for="comment">Напишите комментарий</label>
+        <p><textarea name="text1" id="comment" cols="30" rows="10" autofocus maxlength="10" title="не более 10 символов"></textarea></p>
+        <input type="submit" value="отправить">
+    </fieldset>
+    <fieldset>
+        <legend>Возраст</legend>
+        <label for="number1">Количество пальвец</label>
+        <input type="number" name="number1" id="number1" value="10" min="1" max="10">
+        <label for="number2">Возраст</label>
+        <input type="number" name="number2" id="number2" value="18" min="16" step="2">
+    </fieldset>
+ </form>
+ <h2>Выпажающий список</h2>
+ <form action="#" class="form2">
+ 
+ <fieldset class="fill1">
+    <legend>Просто список</legend>
+<select name="name33" id="sp1" multiple>
+        <option value="1">name1</option>
+        <option value="2">name2</option>
+        <option value="3">name3</option>
+        <option value="4">name4</option>
+        <option value="5">name5</option>
+</select>
+<input type="submit" value="Отправить">
+</fieldset>
+
+ <fieldset class="fill2">
+    <legend>Сгрупированный список</legend>
+    <select name="car" id="car">
+        <optgroup label="легковые">
+            <option value="1">car1</option>
+            <option value="2">car2</option>
+            <option value="3">car2</option>
+            <option value="4">car3</option>
+            <option value="5">car4</option>
+            <option value="6">car5</option>
+        </optgroup>
+        <optgroup label="грузовые">
+            <option value="1">car1</option>
+            <option value="2">car2</option>
+            <option value="3">car2</option>
+            <option value="4">car3</option>
+            <option value="5">car4</option>
+            <option value="6">car5</option>
+        </optgroup>
+        
+
+
+
+    </select>
+
+
+ </fieldset>
+</form>
+<style>
+    .fill1{
+        width: 200px;
+        margin: 20px;
+        background-color: burlywood;
+        
+    }
+    .fill2{
+        width: 200px;
+        margin: 20px;
+        background-color: burlywood;
+    }
+    .form2{
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
+<hr>
+<input type="color" name="" id="">
+    <h3>Псевдо-калькулятор</h3>
+    <form action="#" onsubmit="return false" oninput="o.value = parseInt(a.value)/parseInt(b.value)">
+        <input type="number" name="a" id="aa">/
+        <input type="number" name="b" id="bb">=
+        <output name="o" for=""></output>
+    </form>
+    <video src="" controls width="500px" height="500pxS"></video>
+
+
+
+</div>
+</body>
+</html>

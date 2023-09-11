@@ -1,0 +1,32 @@
+.scroll-table-body{
+    height: 320px;
+    overflow-x: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.scroll-table table{
+    width: 100%;
+    table-layout:fixed;
+    border: none;
+
+}
+.scroll-table thead th{
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+.scroll-table tbody td{
+    text-align: left;
+    border: 1px solid gray;
+    /*border-right: 1px solid gray;*/
+    padding: 10px;
+    font-size: 16px;
+    vertical-align: top;
+}
+.scroll-table tbody tr:nth-child(even){
+    background-color: blanchedalmond;
+}

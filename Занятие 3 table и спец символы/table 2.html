@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        .table{
+            border: 1px solid gray;
+            table-layout: fixed;
+            width: 70%;
+            margin-bottom: 20px;
+        }
+        .table th{
+            padding: 5px;
+            background: rgb(201, 108, 108);
+            border: 2px solid gray;
+        }
+        .table td{
+            padding: 5px 10px;
+            border: 1px solid gray;
+            text-align: center;
+        }
+        .table tbody tr:nth-child(odd){
+            background-color: aqua;
+        }
+        .table tbody tr:nth-child(even){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>зебра</h2>
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Строка1</th>
+            <th>Строка2</th>
+            <th>Строка3</th>
+            <th>Строка4</th>
+            <th>Строка5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Строка1</td>
+            <td>Строка2</td>
+            <td>Строка3</td>
+            <td>Строка4</td>
+            <td>Строка5</td>
+        </tr>
+        <tr>
+            <td>Строка1</td>
+            <td>Строка2</td>
+            <td>Строка3</td>
+            <td>Строка4</td>
+            <td>Строка5</td>
+        </tr>
+        <tr>
+            <td>Строка1</td>
+            <td>Строка2</td>
+            <td>Строка3</td>
+            <td>Строка4</td>
+            <td>Строка5</td>
+        </tr>
+        <tr>
+            <td>Строка1</td>
+            <td>Строка2</td>
+            <td>Строка3</td>
+            <td>Строка4</td>
+            <td>Строка5</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

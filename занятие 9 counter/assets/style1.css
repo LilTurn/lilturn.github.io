@@ -1,0 +1,141 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+
+}
+p, h1{
+    margin: 20px 0;
+}
+.top_menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #41445A;
+}
+.link{
+    display: flex;
+    list-style: none;
+}
+.link>.item-menu{
+    margin: 0 10px;
+
+}
+.link>.item-menu a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.link>.item-menu:hover a{
+    text-decoration: underline;
+    background: #3b05b060;
+}
+.block_1{
+    background: #41445A;
+    color: white;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    text-transform: uppercase;
+}
+.block_info{
+    display: flex;
+}
+.block_info>.info_item{
+    width: 200px;
+    margin: 50px; /* отступ */
+   
+}
+.text_info{
+    color: #EB2E38;
+    font-size: 22px;
+}
+.contact_form{
+    background-color: #F7F7F7;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.title_form{
+    width: 50%;
+}
+.title_form>p{
+    font-size: 16px;
+}
+form{
+    margin: 0;
+}
+input[type = 'email']{
+    width: 400px;
+    height: 50px;
+    padding: 1px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px 0px 0px 10px ;
+    font-size: 20px;
+    margin-right: -5px;
+   
+}
+.submit{
+    margin: 0;
+    padding: 0;
+    background-color: #FDE1E4;
+    color: #F55C68;
+    width: 50px;
+    height: 56px;
+    border: none;
+    margin-top: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+.block_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.solution_1,.solution_2{
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.solution_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.solution_item .item{
+    width: 300px;
+}
+.solution_item .item .item_icon{
+    width: 70px;
+    height: 70px;
+    color: #F55C68;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Работа с изображениями</title>
+</head>
+<body>
+    <h2>Вставка изображения</h2>
+    <img src="img/1.jpg" alt="car" width="400px" >
+    
+    <a href="https://www.info-manial.com/">
+        <img src="img/6.jpg" alt="69" width="80px">
+    </a>
+    <h2>рекомендуемые форматы</h2>
+    <ul>
+        <li>1.svg(маштубируемая векторная графика, занимает мало места и в коде видна в виде цыфр)</li>
+        <li>jpeg, jpg, jfif, pip, pjpeg (растровая фотографическая графика)</li>
+        <li>ico, cur (формат иконок или значов)</li>
+        <li>1.png (переносимая сетевая графика)</li>
+        <li>1.gif (формат обмена графическими данными</li>
+    </ul> <!--1.(лучше использовать)-->
+
+    <!--закладочка-->
+    <p>
+        rect (прямоугольная)
+        circle (окружность)
+        polygonal  (полигональная)
+        default (любая область картинки введет на одну ссылку)
+    </p>
+
+    <h2>карта изображений</h2>
+    <img src="img/9.jpg" alt="." usemap="#map1">
+    <map name="map1">
+        <!--<area shape="rect" coords="470,200,510 260" href="" alt="">-->
+        <area shape="circle" coords="495,455,45" href="" alt="">
+    </map>
+    <!--картинка как функция-->
+    <map name="map1">
+        <area shape="rect" coords="470,200,510 260"  onclick="myFun()">
+        
+    </map>
+
+    <script>
+        function myFun(){
+            alert('Саня лох')
+        }
+    </script>
+    <p style="background-image: url('img/5.jpg');">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+         Quos magni assumenda cumque harum suscipit dolorum tempora a <br>
+        quibusdam totam laboriosam quasi est cum molestias, vel<br>
+         delectus inventore facilis iure nam ipsum asperiores aliquam<br>
+          dolores quisquam, quaerat deserunt. Architecto distinctio accusantium <br>
+          cupiditate earum error excepturi!<br>
+    </p>
+
+    <style>
+        body{
+            background-image: url('img/4.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover ;
+        }
+
+
+    </style>
+
+</body>
+</html>

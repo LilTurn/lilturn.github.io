@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Формы</title>
+</head>
+<body>
+<div class="container">
+    <h1>Формы регисрации</h1>
+<form action="#">
+    <fieldset class="fill1">
+        <legend>ФОРМА РЕГИСТРАЦИИ</legend>
+        <label for="name1"> Введите имя <em>*</em></label>
+        <input type="text" name="name1" id="name1" placeholder="Введите ваше имя" required autocomplete autofocus title="Вводите на русском">
+        <br> <br>
+        <label for="email">Введите вашу почту <em>*</em></label>
+        <input type="email" name="e-mail" id="email_1" placeholder="Введите вашу почту" required autocomplete title="Вводите на английском">
+        <br> <br>
+        <label for="pass">Придумайте пароль <em>*</em></label>
+        <input type="password" name="pass" id="pass" placeholder="Введите пароль" required>
+        <br> <br> <br>
+        <input type="submit" value="Зарегистрироваться">
+
+    </fieldset>
+</form> 
+<br>   
+<hr>
+<h2>Анкета</h2>
+    <div class="ancet">
+        <form action="#" class="an1">
+            <fieldset>
+                <legend>Определение пола</legend>
+                <input type="radio" name="sex" id="man"  value="man" checked>
+                <label for="man">МУЖЧИНА</label> <br>
+                <input type="radio" name="sex" id="woman" value="woman">
+                <label for="woman">ЖЕНЩИНА</label> <br>
+                <input type="submit" value="Выбрать">
+            </fieldset>
+
+        </form>
+        <form action="#" class="an2">
+            <fieldset>
+                <legend>Выберите сайт</legend>
+                <input type="checkbox" name="sait1" id="sait1" value="sait1">
+                <label for="sait1">Первый сайт</label>
+                <br>
+                <input type="checkbox" name="sait2" id="sait2" value="sait2">
+                <label for="sait2">Второй сайт</label>
+                <br>
+                <input type="checkbox" name="sait3" id="sait3" value="sait3">
+                <label for="sait3">Третий сайт</label>
+                <br>
+                <input type="checkbox" name="sait4" id="sait4" value="sait4">
+                <label for="sait4">Четвертый сайт</label>
+                <br>
+                <input type="button" value="Выбрать">
+            </fieldset>
+        </form>
+        <form action="#" class="an3">
+            <fieldset>
+                <legend>Список</legend>
+                <input list="name2" name="name2">
+                <datalist id="name2">
+                    <option value="Маша"></option>
+                    <option value="Петя"><option>
+                    <option value="Катя"></option>
+                    <option value="Саша"></option>
+                    <option value="Иван"></option>                    
+                </datalist>
+                <input type="button" value="Выбрать">
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+    
+</body>
+</html>
